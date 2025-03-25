@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --second-:0.1s;
+    --text-color-:rgb(0, 0, 0);
+}
+body{
+    background-color: black
+}
+.h1{
+    text-align: center;
+    font-size: 47px;
+    text-decoration: underline double grey;
+    color: grey;
+    transition-duration: var(--second-);
+}
+.h1:hover{
+    color: white;
+    cursor: pointer;
+    text-shadow: 5px  6px  red;
+}
+.p1{
+    color: gray;
+    font-family: cursive;
+    font-size: 20px;
+    transition-duration: var(--second-)
+}
+.p1:hover{
+    color: var(--text-color-);
+    cursor: pointer;
+}
+table{
+    border: 20px double gray;
+    transition-duration: var(--second-)
+}
+th{
+    font-size: 20px;
+    color: gray;
+    font-family: monospace;
+    transition-duration: var(--second-)
+}
+th:hover{
+    color: white;
+    cursor: pointer;
+    text-shadow: 5px  6px  red;
+}
+td{
+    font-size: 20px;
+    color: gray;
+    font-family: cursive;
+    transition-duration: var(--second-)
+}
+td:hover{
+    color: white;
+    cursor: pointer;
+}
+.para{
+    text-indent: 20px;
+    transition-duration: var(--second-);
+    background-color: white;
+    border: 2px , rgb(252, 248, 248) , solid;
+    border-radius: 10%;
+    padding: 60px;
+    margin: 60px;
+}
+.anchor{
+    color: blue;
+    font-family: monospace;
+    font-size: 40px;
+    transition-duration: var(--second-)
+}
+.jelly{
+    background-color: rgb(175, 169, 169);
+    transition-duration: var(--second-)
+}
+footer{
+    height: 300px;
+    background-color: rgb(175, 169, 169);
+    position: relative;
+    transition-duration: var(--second-)
+}
+.a{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    position: absolute;
+    left: 800px;
+    transition-duration: var(--second-)
+}
+.a:hover{
+    color: blueviolet;
+}
+.aa{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 50px;
+    position: absolute;
+    left: 50px;
+    transition-duration: var(--second-)
+}
+.aa:hover{
+    color: blueviolet;
+}
+.details{
+    position: absolute;
+    left: 390px;
+    top: 100px;
+    transition-duration: var(--second-)
+}
+.producer{
+    font-size: 40px;
+    transition-duration: var(--second-)
+}
+.aaa{
+    position: absolute;
+    top: 120px;
+    font-size: 40px;
+    transition-duration: var(--second-)
+}
+.aaa:hover{
+    color: blueviolet;
+}
+.login{
+    font-size: 50px;
+    position: absolute;
+    top: 0px;
+    color:gray ;
+    transition-duration: var(--second-)
+}
+.login:hover{
+    color: rgb(101, 0, 126);
+    cursor: pointer;
+}
